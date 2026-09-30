@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fff6f2;
+  background-image: radial-gradient(#ffd3e0 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+::selection {
+  background-color: #ff8fae;
+  color: #fff6f2;
+}
+
+.eyebrow {
+  letter-spacing: 0.1em;
+}
+
+.pixel-corners {
+  clip-path: polygon(
+    0 8px, 8px 8px, 8px 0,
+    calc(100% - 8px) 0, calc(100% - 8px) 8px, 100% 8px,
+    100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%,
+    8px 100%, 8px calc(100% - 8px), 0 calc(100% - 8px)
+  );
+}
