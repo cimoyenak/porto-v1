@@ -31,9 +31,9 @@ Platform transparansi dan akuntabilitas infak Masjid Nurul Iman yang dikembangka
 
 Fitur yang dikembangkan meliputi informasi program, penyaluran dana, transaksi, serta dashboard admin.
 
-**Tech:** React, Vite, Tailwind CSS, Express.js, Supabase, PostgreSQL, JWT
+**Tech:** React, Vite, Tailwind CSS
 
-[Live Demo](https://nuriman-pay.vercel.app/)
+(https://porto-v1-git-main-angguns-projects-3eb7a055.vercel.app/)
 
 ### Portal Resmi Kota Kediri
 
